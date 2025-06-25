@@ -11,8 +11,8 @@ function App() {
     <>
       <div className="relative min-h-screen">
         {/*Backgrounds*/}
-        <div className="bg-[url('/bg.jpg')] inset-0 absolute bg-cover min-h-screen bg-center bg-no-repeat -z-10" />
-        <div className="bg-[url('/dot-bg.png')] bg-white w-[615px] min-h-screen z-10 absolute right-0 clip-your-needful-style" />
+        <div className="bg-[url('/bg.jpg')] inset-0 absolute bg-cover min-h-screen -z-10 bg-center bg-no-repeat " />
+        <div className="bg-[url('/dot-bg.png')] bg-white inset-0 min-h-screen absolute right-0 clip-your-needful-style" />
 
         <div className="flex justify-between px-[337px] overflow-hidden min-w-screen w-max min-h-screen h-max">
           
@@ -73,6 +73,7 @@ function App() {
               <LoginCard/>
             </div>
           </div>
+          
         </div>
       </div>
     </>
